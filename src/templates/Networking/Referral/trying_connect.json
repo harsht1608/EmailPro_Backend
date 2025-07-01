@@ -1,0 +1,20 @@
+{
+  "template_name": "trying_to_connect",
+  "from": {
+    "name": "{{sender_name}}",
+    "email": "{{sender_email}}"
+  },
+  "subject": "Trying to connect",
+  "message": "Hey {{first_name}},\n\nMy name is {{sender_name}} and I'm with {{sender_company}}. We work with organizations like {{target_company}} to {{pitch}}.\n\n{{unique_benefit}}\n\nCould you direct me to the right person to talk to about this at {{target_company}} so we can explore if this would be something valuable to incorporate into your events?\n\nCheers,\n\n{{signature}}",
+  "variables": [
+    "sender_name",
+    "sender_email",
+    "first_name",
+    "sender_company",
+    "target_company",
+    "pitch",
+    "unique_benefit",
+    "signature"
+  ],
+  "category": "referral"
+}

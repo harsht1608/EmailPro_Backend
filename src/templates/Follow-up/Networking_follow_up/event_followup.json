@@ -1,0 +1,18 @@
+{
+  "template_name": "event_followup",
+  "from": {
+    "name": "{{user_name}}",
+    "email": "{{user_email}}"
+  },
+  "subject": "Hello from {{user_name}} ({{event_name}})",
+  "message": "Hi {{first_name}},\n\nIt was a pleasure talking with you last night at {{event_name}}. It was so interesting to learn {{learning_point}}. As for grabbing a coffee some time, I'd love to take you up on that!\n\nDo you have any availability this or next week? Good times for me are {{availability}}, but I will be glad to work around your schedule. Let me know if there are any days or times that work for you.\n\nBest,\n\n{{user_name}}",
+  "variables": [
+    "user_name",
+    "user_email",
+    "first_name",
+    "event_name",
+    "learning_point",
+    "availability"
+  ],
+  "category": "networking_follow_up"
+}

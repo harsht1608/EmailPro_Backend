@@ -1,0 +1,23 @@
+{
+  "name": "merged-app",
+  "version": "1.0.0",
+  "description": "A merged application for email services and message generation.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^6.0.0",
+    "express-validator": "^7.0.0",
+    "mongoose": "^8.15.1",
+    "nodemailer": "^6.4.11",
+    "winston": "^3.3.3"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,17 @@
+{
+  "template_name": "check_in",
+  "from": {
+    "name": "{{user_name}}",
+    "email": "{{user_email}}"
+  },
+  "subject": "Re: {{original_subject}}",
+  "message": "Hey {{first_name}},\n\nI'm just checking in to see if you had a chance to read my last email.\n\nIf you're open for a phone/video call on {{proposed_day}}, let me know!\n\nBest,\n\n{{user_name}}",
+  "variables": [
+    "user_name",
+    "user_email",
+    "first_name",
+    "original_subject",
+    "proposed_day"
+  ],
+  "category": "networking_follow_up"
+}
