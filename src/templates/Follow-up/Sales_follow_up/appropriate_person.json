@@ -1,0 +1,14 @@
+{
+  "template_name": "appropriate_person",
+  "from": {
+    "name": "Harsh Tembhurnikar",
+    "email": "harsht1326@gmail.com"
+  },
+  "subject": "Appropriate person",
+  "message": "Hi {{first_name}},\n\nI'm writing to follow-up on my previous email as I didn't hear back from you. If it makes sense to talk, let me know how your calendar looks.\n\nIf not, could you please let me know who the appropriate person for me to talk to is?\n\nThanks for your help,\n\n{{user_name}}",
+  "variables": [
+    "first_name",
+    "user_name"
+  ],
+  "category": "sales_follow_up"
+}

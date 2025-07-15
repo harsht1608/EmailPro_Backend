@@ -1,0 +1,21 @@
+{
+  "template_name": "introducing_connection",
+  "from": {
+    "name": "{{your_name}}",
+    "email": "{{your_email}}"
+  },
+  "subject": "Introducing {{intro_name}}",
+  "message": "Hi {{first_name}},\n\nHow are things going at {{company}}? I'd like to introduce you to [{{intro_name}}]({{intro_linkedin}}). {{intro_description}}.\n\n{{intro_name}}, meet {{first_name}}. {{how_you_met}}. {{intro_strengths}}.\n\nI'll leave it to you two to find a time to connect!\n\nBest,\n\n{{your_name}}",
+  "variables": [
+    "your_name",
+    "your_email",
+    "first_name",
+    "company",
+    "intro_name",
+    "intro_linkedin",
+    "intro_description",
+    "how_you_met",
+    "intro_strengths"
+  ],
+  "category": "networking_referral"
+}

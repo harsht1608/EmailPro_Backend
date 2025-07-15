@@ -1,0 +1,17 @@
+{
+  "template_name": "contact_info_request",
+  "from": {
+    "name": "{{sender_name}}",
+    "email": "{{sender_email}}"
+  },
+  "subject": "Contact information of {{target_person_or_department}}",
+  "message": "Hey {{first_name}},\n\nHello. I’m {{sender_name}} from {{sender_company}} and am looking for help finding some contact information. I would like to know who is in charge of {{target_person_or_department}}. Could you pass on their contact information?\n\nThanks so much for your help.\n\nSincerely,\n\n{{sender_name}}",
+  "variables": [
+    "sender_name",
+    "sender_email",
+    "first_name",
+    "sender_company",
+    "target_person_or_department"
+  ],
+  "category": "referral"
+}

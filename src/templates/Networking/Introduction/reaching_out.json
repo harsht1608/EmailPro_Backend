@@ -1,0 +1,19 @@
+{
+  "template_name": "referral_introduction",
+  "from": {
+    "name": "{{your_name}}",
+    "email": "{{your_email}}"
+  },
+  "subject": "Reaching out to you via {{referrer_name}}",
+  "message": "Hi {{first_name}},\n\nMy name is {{your_name}}, I was given your name by {{referrer_name}}. I run a {{industry}} business and it sounds like we could benefit from knowing one another! I browsed through your site—love {{compliment}}.\n\nIf you ever want to meet up for coffee or have a phone/video chat to exchange ideas, let me know! You can also call or text me at {{contact_number}}.\n\nHave a great rest of your week,\n\n{{your_name}}",
+  "variables": [
+    "your_name",
+    "your_email",
+    "first_name",
+    "referrer_name",
+    "industry",
+    "compliment",
+    "contact_number"
+  ],
+  "category": "networking_referral"
+}

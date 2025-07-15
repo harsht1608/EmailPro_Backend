@@ -1,0 +1,76 @@
+# Dependencies (both root and subdirectories)
+**/node_modules/
+**/package-lock.json
+**/yarn.lock
+**/pnpm-lock.yaml
+
+# Environment variables
+**/.env
+**/.env.*
+!**/.env.example
+
+# Build outputs
+**/dist/
+**/build/
+**/coverage/
+
+# Logs
+**/logs/
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+**/lerna-debug.log*
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+**/*.swp
+**/*.swo
+
+# IDE/Editor specific
+.idea/
+.vscode/
+**/*.sublime-project
+**/*.sublime-workspace
+**/*.suo
+**/*.ntvs*
+**/*.njsproj
+**/*.sln
+**/*.sw?
+
+# Debug files
+**/.debug/
+**/*.debug
+
+# Local development
+**/*.local
+
+# Database files
+**/*.sqlite
+**/*.sqlite3
+**/*.db
+
+# Test coverage
+**/coverage/
+**/.nyc_output/
+
+# Temporary files
+**/tmp/
+**/temp/
+**/*.tmp
+
+# Project specific directories
+Main_server/node_modules/
+Main_server/.env
+src/node_modules/
+src/.env
+
+# Cache and deployment
+**/*.cache
+**/.vercel
+**/.netlify
+
+# TypeScript
+**/*.tsbuildinfo
